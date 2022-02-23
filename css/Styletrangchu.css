@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 2020px;
+    margin: auto;
+    background-color: rgba(245, 222, 179, 0.5);
+}
+.thanh{
+    width: 100%;
+    height: 70px;
+    background-color: tomato;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 99, 71, 0.562);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logo.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgba(255, 68, 0, 0.63);
+    text-align: center;
+    height: 100%;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/Passio.jpg);
+    background-size: 100% 100%;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    line-height: 40px;
+    background-color: orangered;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    height: 2220px;
+    background-color: rgb(249, 250, 249);
+}
+.trai{
+    width: 19%;
+    height: 100%;
+    background-color: lightgray;
+    float: left;
+}
+.sukien{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 183, 255, 0.767) ;
+    text-align: center;
+}
+.giua{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 228, 196, 0.219);
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: 0.6; 
+}
+p>img{
+    margin-top: 20px;
+}
+.phai{
+    width: 19%;
+    height: 100%;
+    background-color: lightgray;
+    float: right;
+}
+.menudoc{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 183, 255, 0.767) ;
+    text-align: center;
+}
+.vmenu{
+    padding: 0px;
+    margin-top: 20px;
+    list-style:none;
+    border-radius: 3px;
+    box-shadow:0 0 2px gray;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.mr{
+    margin-right: 1%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    border-top: 10px solid orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: left;
+    font-variant: small-caps;
+    clear: both;
+    font-style: italic;
+}
+.footertrai{
+    width: 49%;
+    height: 100%;
+    float: left;
+    font-size: 15px !important;
+}
+.lienhe{
+    margin-left: 10px;
+}
+.footerphai{
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+.thanhtoan{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1px;
+}
+.gopy{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
